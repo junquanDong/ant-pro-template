@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "../../",
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@@/*": [
+        "src/.umi/*"
+      ],
+      "@umijs/max": [
+        "/Users/wild/project/workspace/projects/laike-system/node_modules/.pnpm/registry.npmmirror.com+umi@4.0.81_zyqio3rntg6s6xu7q6ggziyq4i/node_modules/umi"
+      ],
+      "@umijs/max/typings": [
+        "src/.umi/typings"
+      ]
+    }
+  },
+  "include": [
+    "../../.umirc.ts",
+    "../../**/*.d.ts",
+    "../../**/*.ts",
+    "../../**/*.tsx"
+  ]
+}

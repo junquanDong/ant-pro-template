@@ -1,0 +1,33 @@
+.do-comp-label {
+  display: flex;
+  align-items: center;
+  .label-name {
+    padding: 0 8px;
+    color: rgba(2, 4, 13, 0.65);
+    font-size: 14px;
+
+    .label-required {
+      color: #ff4d4f;
+    }
+  }
+}
+
+.do-comp-label.label-border {
+  background-color: #fff;
+  .label-name {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-height: 32px;
+    text-wrap: nowrap;
+    border: 1px solid #d9d9d9;
+    border-right-width: 0px;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  & > *:not(.label-name) {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}
